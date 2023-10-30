@@ -1,0 +1,325 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+}
+.container {
+  width: 85%;
+  height: 100vh;
+}
+a {
+  text-decoration: none;
+}
+.logo {
+  position: absolute;
+  top: 50px;
+  left: 90px;
+
+}
+.logo a {
+  color: #2f2e41;
+  text-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2);
+  font-weight: bold;
+  font-size: 2rem;
+  letter-spacing: 1;
+}
+.SearchArea {
+  position: fixed;
+  top: 50px;
+  right: 90px;
+  width: 170px;
+  height: 45px;
+  background-color: #fff;
+  display: flex;
+  border-radius: 10% 10% 10% 10% /50% 50% 50% 50%;
+  box-shadow: 2px 2px 30px rgba(167, 158, 245, 0.2);
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  border: 1px solid rgba(167, 158, 245, 0.1);
+  z-index: 1;
+}
+.searchBox input {
+  width: 90px;
+  height: 20px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: #1f1f1f;
+  font-size: 1rem;
+  padding: 0px 10px;
+}
+.searchBox input::placeholder {
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: #1d1d1d;
+  letter-spacing: 2px;
+  font-family: poppins;
+}
+.Section1 {
+  position: absolute;
+  top: 40%;
+  left: 15%;
+  transform: translate(-15% -50%);
+}
+.Section1 img {
+  height: 300px;
+}
+.section1Button {
+  position: absolute;
+  top: 50%;
+  left: 90%;
+  transform: translate(-90%, -50%);
+}
+.section1Button h1,
+h2 {
+  font-family: Roboto;
+  font-size: 4rem;
+  font-weight: bold;
+  margin: 0px;
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.08);
+  color: #3d3d4a;
+  line-height: 60px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+.section1Button h1 {
+  letter-spacing: 28px;
+}
+span {
+  color: #864686;
+}
+.btn {
+  width: 150px;
+  height: 40px;
+  color: #fff;
+  background-color: #403d77;
+  font-size: 1rem;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  border-radius: 10% 10% 10%/50% 50% 50% 50%;
+  box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.1);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border: transparent !important;
+  outline: none;
+  cursor: pointer;
+  margin-top: 20px;
+  font-weight: 600;
+  font-family: calibri;
+  border: transparent !important;
+}
+.btn:hover {
+  color: #ffffff;
+  background-color: #6e64ff;
+  transition: all ease 0.5s;
+}
+.iconArea {
+  position: fixed;
+  top: 50%;
+  left: 30px;
+  border-radius: 20px;
+  background-color: #fff;
+  z-index: 1;
+  box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2);
+  transform: translateY(-50%);
+  padding: 5px 0px;
+}
+.iconArea a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 15px;
+}
+.iconArea a i {
+  color: rgba(39, 39, 39, 0.8);
+}
+.iconArea a:hover .fa-twitter {
+  color: #2f23cf;
+}
+.iconArea a:hover .fa-instagram {
+  color: #d6233b;
+}
+.iconArea a:hover .fa-youtube {
+  color: #da3315;
+}
+.productSection {
+  width: 85%;
+  background-color: #fff;
+  box-shadow: 2px 2px 30px rgba(167, 158, 245, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px auto;
+  padding: 10px 0px;
+  background-size: 1000px;
+  position: relative;
+  margin-top: -60px;
+  padding: 40px 20px;
+  border-radius: 10px;
+}
+.productSection > h3 {
+  margin: 20px;
+  .productsectionter-spacing: 2px;
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.05);
+  font-size: 2rem;
+  font-family: myriad pro;
+  font-weight: 700;
+  color: #3d3d4a;
+}
+.product {
+  display: flex;
+  margin: 10px 0px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.ProductBox {
+  width: 250px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin: 10px 30px;
+  border-radius: 10px;
+}
+.ProductBox img {
+  height: 180px;
+}
+.ProductBox p {
+  color: #bbbbce;
+  font-size: 1rem;
+}
+.ProductBox a {
+  color: rgb(41, 41, 40);
+  font-size: 1rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.Buybtn {
+  position: absolute;
+  background: linear-gradient(120deg, #6b60ec 20%, #a166f4);
+  width: 140px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  left: 50%;
+  bottom: -20px;
+  transform: translateX(-50%);
+  border-radius: 30px;
+  color: #bbbbce;
+  display: none;
+  animation: fade 0.2s;
+}
+.ProductBox:hover {
+  display: flex;
+  background-color: #fff;
+  box-shadow: 2px 2px 30px rgba(167, 158, 245, 0.3);
+}
+.ProductBox:hover .Buybtn {
+  display: flex;
+}
+
+.ProductBox:hover a:last-child {
+  color: #fff;
+  transition: all ease 0.3s;
+}
+.aboute {
+  display: flex;
+  width: 85%;
+  justify-content: space-around;
+  align-items: center;
+  margin: 50px auto;
+  padding: 30px;
+  margin-bottom: 160px !important;
+}
+.abouteBox {
+  width: 40%;
+  font-family: myriad pro;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.abouteBox h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #3d3d4a;
+  letter-spacing: 2px;
+}
+.abouteBox h4 {
+  font-size: 2rem;
+  font-weight: 400;
+  letter-spacing: 2px;
+  color: #6e6e80;
+}
+.abouteBox p {
+  color: #bbbbce;
+  font-size: 1rem;
+}
+.abouteBox img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.notification {
+  height: 250px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.notification h1 {
+  color: rgb(13, 13, 14);
+  font-size: 2rem;
+}
+.notificationinput {
+  width: 40%;
+  height: 70px;
+  background-color: #fff;
+  border-radius: 7% 7% 7% 7%/50% 50% 50% 50%;
+  box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+padding: 5px 20px;
+margin: 30px auto;
+
+}
+.notificationinput input {
+  height: 40px;
+  width: 100%;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+.notificationinput .notificationBtn{
+color: white;
+text-transform: uppercase;
+background-color: black;
+padding: 15px 30px;
+border-radius: 50px;
+
+}
+.notificationBtn:hover{
+  background-color: #6b60ec;
+  transition: all ease .3s;
+}
+footer{
+  width: 100%;
+  height: 40px;
+background-color: black;
+color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+margin-bottom: 0px;
+}
